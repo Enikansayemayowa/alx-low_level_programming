@@ -21,7 +21,7 @@ int main(void)
 	letter = 'a';
 	for (i = 0; i < 26; i++)
 		 if (!(letter + i == 'q' || letter + i == 'e'))
-		       putchar(letter + i);
+			 putchar(letter + i);
 	putchar('\n');
 	return (0);
 }
