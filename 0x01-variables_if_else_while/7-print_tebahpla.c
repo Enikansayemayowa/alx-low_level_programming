@@ -21,7 +21,7 @@ int main(void)
 
 	letter = 'a';
 	for (i = 25; i >= 0; i--)
-		putchar(letter + 1);
+		putchar(letter + i);
 	putchar('\n');
 	return (0);
 }
