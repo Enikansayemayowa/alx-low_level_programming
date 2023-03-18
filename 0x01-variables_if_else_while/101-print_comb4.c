@@ -26,12 +26,12 @@ int main(void)
 		{
 			for (k = j; k < 10; k++)
 			{
-				if ((j != k && i != j && i !=k))
+				if ((j != k && i != j && i != k))
 				{
 					putchar(i + offset);
 					putchar(j + offset);
 					putchar(k + offset);
-					if(!((i > 6) && (j > 7) && (k > 8)))
+					if (!((i > 6) && (j > 7) && (k > 8)))
 					{
 						putchar(44);
 						putchar(32);
