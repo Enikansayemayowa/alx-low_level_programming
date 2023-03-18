@@ -15,11 +15,11 @@
  */
 int main(void)
 {
-	char letter, num;
+	char num;
 	int i;
 
 	letter = 'a';
-	number = '0';
+	num = '0';
 
 	for (i = 0; i < 16; i++)
 		putchar(num + i);
