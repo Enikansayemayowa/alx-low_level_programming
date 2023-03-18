@@ -20,7 +20,7 @@ int main(void)
 
 	letter = 'a';
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i < 26; i++)
 		if (!(letter + i == 'q' || letter + i == 'e'))
 			putchar(letter + i);
 	putchar('\n');
