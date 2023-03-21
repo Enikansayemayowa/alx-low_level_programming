@@ -4,8 +4,8 @@
 #include "main.h"
 /**
   * _abs - returns absolute value of n
-  * @n: integer value to be tested
-  * Return: absolute value of n
+  * @i: integer value to be tested
+  * Return: absolute value of i
   *
   */
 int _abs(int i)
@@ -14,7 +14,7 @@ int _abs(int i)
 	{
 		return (-i);
 	}
-	else 
+	else
 	{
 		return (i);
 	}
