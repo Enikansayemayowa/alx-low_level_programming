@@ -3,10 +3,13 @@
  */
 #include "main.h"
 /**
- * Sign - Write a function that prints the sign of a number.
- *
- * Return: Always 0
- */
+  * print_sign - indicates whether int is positive or negative
+  * @n: integer value to be tested
+  * Return: 1 and prints + if n is greater than zero
+  *     Returns 0 and prints '0' if n is zero
+  *     Returns -1 and prints '-' if ne is less than zero
+  *
+  */
 int print_sign(int n)
 {
 	if (n < 0)
@@ -22,7 +25,7 @@ int print_sign(int n)
 	}
 	else
 	{
-		_putchar(0);
+		_putchar(48);
 		return (0);
 	}
 }
