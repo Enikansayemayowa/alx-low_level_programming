@@ -3,10 +3,10 @@
  */
 #include "main.h"
 /**
- * main - print_alphabet - prints lower case alphabet
+ * main - prints lower case alphabet
  * this is just a function
  *
- * Return: Always return void
+ * Return: Always 0
  */
 void print_alphabet_x10(void)
 {
