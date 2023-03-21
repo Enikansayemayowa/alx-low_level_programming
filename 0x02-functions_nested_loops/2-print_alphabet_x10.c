@@ -3,10 +3,9 @@
  */
 #include "main.h"
 /**
- * main - prints lower case alphabet
- * this is just a function
+ * print_alphabet_x10 - prints alphabet times 10
  *
- * Return: Always 0
+ * Return: Always return 0
  */
 void print_alphabet_x10(void)
 {
