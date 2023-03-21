@@ -3,7 +3,7 @@
  */
 #include "main.h"
 /**
- * print_alphabet - prints lower case alphabet
+ * main - print_alphabet - prints lower case alphabet
  * this is just a function
  *
  * Return: Always return void
@@ -22,7 +22,7 @@ void print_alphabet_x10(void)
 			_putchar(letter);
 			letter++;
 		}
-		_putchar(i);
+		_putchar('\n');
 		i++;
 	}
 }
