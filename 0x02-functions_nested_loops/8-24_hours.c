@@ -12,9 +12,9 @@ void times_table(void)
 	int hour;
 	int minutes;
 
-	for (hour = 0; hour <= 24; hour++)
+	for (hour = 0; hour <= 23; hour++)
 	{
-		for (minutes = 0; minutes <= 60; minutes++)
+		for (minutes = 0; minutes <= 59; minutes++)
 		{
 			_putchar('0' + hour / 10);
 			_putchar('0' + hour % 10);
