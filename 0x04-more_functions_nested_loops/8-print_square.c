@@ -1,8 +1,7 @@
 #include "main.h"
-/*
- * print_square - prints a square, followed by a new line.
- * @size: number of square
- *
+/**
+ * print_square - print diagonal line using '\' characters
+ * @size: int value how long (vertically) to make diagonal line
  * Return: void
  */
 void print_square(int size)
