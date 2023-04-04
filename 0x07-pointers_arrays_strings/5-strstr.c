@@ -8,12 +8,13 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	char *p1, *p2, *p3;
-	if (*needle == '\0')
+	int i, j;
+
+	if (*needle[0] == '\0')
 	{
 		return (haystack);
 	}
-	for (p1 = haystack; *p1 != '\0'; p1++)
+	for (i = 0; haystack[i] != '\0'; i++)
 	{
 		*p2 = *p1;
 		*p3 = *needle;
