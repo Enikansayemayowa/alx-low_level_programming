@@ -1,12 +1,11 @@
 #include "main.h"
 /**
- * _sqrt_recursion - returns the natural square root of a number.
+ * square_check - function for checking for the value of n
  * @n: number to find the natural square root
  * @l: lower number
  * @h: higher number
- * @mid: division of l and h by 2
- * @mid_squared: square od mid
- * @square_check: function for checking
+ * mid - division of l and h by 2
+ * mid_squared - square od mid
  * Return: 1 on success
  */
 int square_check(int n, int l, int h)
@@ -32,7 +31,12 @@ int square_check(int n, int l, int h)
 			return (square_check(n, l, mid - 1));
 		}
 }
-
+/**
+ * _sqrt_recursion - returns the natural square root of a number.
+ * @n: number to find the natural square root
+ * square_check - function for checking for the value of n
+ * Return: 1 on success
+ */
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
