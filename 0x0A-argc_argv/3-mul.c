@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "main.h"
 /**
  * main - program that prints its name
  * @argc: argument control
@@ -12,7 +13,7 @@ int main(int argc, char *argv[])
 	int value1 = atoi(argv[1]);
 	int value2 = atoi(argv[2]);
 
-	if (argc != 3)
+	if (argc < 3 || argc > 3)
 	{
 		printf("%s\n", "Error");
 		return (1);
