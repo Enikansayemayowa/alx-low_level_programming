@@ -7,7 +7,7 @@
  */
 char *_strdup(char *str)
 {
-	int a = 0;
+	int a;
 	int i = 0;
 	char *arrChar;
 
@@ -24,7 +24,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (; str[a]; a++)
+	for (a = 0; str[a]; a++)
 	{
 		arrChar[a] = str[a];
 	}
