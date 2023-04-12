@@ -7,8 +7,8 @@
  */
 char *_strdup(char *str)
 {
-	unsigned int a = 0;
-	unsigned int i = 0;
+	int a = 0;
+	int i = 0;
 	char *arrChar;
 
 	if (str == NULL)
