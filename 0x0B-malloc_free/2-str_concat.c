@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <string.h>
 /**
  * str_concat - Write a function that concatenates two strings.
  * @s1: string 1
