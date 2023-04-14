@@ -14,9 +14,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	s1Length = 0;
 	if (s1 == NULL)
-		return (" ");
+		return (NULL);
 	if (s2 == NULL)
-		return (" ");
+		return (NULL);
 	while (s1[s1Length] != '\0')
 		s1Length++;
 	newSpace = malloc(s1Length + n + 1);
