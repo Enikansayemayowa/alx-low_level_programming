@@ -1,7 +1,18 @@
-int main(argc, char *argv[])
+#include <stdlib.h>
+#include <stdio.h>
+#include "3-calc.h"
+#include "function_pointers.h"
+/**
+ * main - This file should contain your main function only
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: int
+ */
+int main(int argc, char *argv[])
 {
 	int num1, num2;
 	char *op;
+
 	if (argc != 4)
 	{
 		printf("Error\n");
