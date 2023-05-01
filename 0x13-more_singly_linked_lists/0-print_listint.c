@@ -9,9 +9,10 @@ size_t print_listint(const listint_t *h)
 {
 	const listint_t *allElement = h;
 	size_t count = 0;
-	if (h != NULL)
+
+	while (allElement != NULL)
 	{
-		printf("%d\n", h->n);
+		printf("%d\n", allElement->n);
 		count++;
 		allElement = allElement->next;
 	}
