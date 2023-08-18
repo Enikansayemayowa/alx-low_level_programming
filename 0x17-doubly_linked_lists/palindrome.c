@@ -48,7 +48,7 @@ int main(void)
 			}
 		}
 	}
-	filePath = fopen("102 result", "w");
+	filePath = fopen("102-result", "w");
 	if (filePath != NULL)
 	{
 		fprintf(filePath, "%d", largest_value);
