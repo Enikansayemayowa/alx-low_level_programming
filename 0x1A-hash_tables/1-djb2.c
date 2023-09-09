@@ -1,6 +1,6 @@
 #include "hash_tables.h"
 /**
- * int hash_djb2 - Write a hash function implementing the djb2 algorithm.
+ * hash_djb2 - Write a hash function implementing the djb2 algorithm.
  * @str: pointer to string to hash
  * Return: 0
  */
